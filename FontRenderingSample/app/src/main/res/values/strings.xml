@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FontRenderingSample</string>
+    <string name="sample_text">a b f k y</string>
+    <string name="apply_font">Apply Font</string>
+</resources>
