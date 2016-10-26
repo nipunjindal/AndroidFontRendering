@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void applyFontToText(View view) {
         float density = getResources().getDisplayMetrics().density;
-        Typeface font = Typeface.createFromAsset(this.getAssets(), "font/HelveticaNeue.dfont");
+        Typeface font = Typeface.createFromAsset(this.getAssets(), "font/HelveticaNeue.ttf");
         sampleTextView.setTypeface(font);
 
         int textSize = 50;
